@@ -1,5 +1,5 @@
 # mingw32编译说明:    
-1.设置CMAKE，运行CMAKE配置好OpenCV_DIR      
+1.设置CMAKE，运行CMAKE配置好OpenCV_DIR(下载：http://http://hyhsystem.cn/opencv_build/)        
 ![cmake](compile_image/cmake.PNG)    
 2.使用mingw32-make编译  
 ![make_1](compile_image/make_1.PNG)  
