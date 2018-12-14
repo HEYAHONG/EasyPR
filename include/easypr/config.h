@@ -1,7 +1,18 @@
 #ifndef EASYPR_CONFIG_H_
 #define EASYPR_CONFIG_H_
 
-#define CV_VERSION_THREE_ZERO
+#define CV_VERSION_THREE_TWO
+
+/*高版本需启用下面的定义*/
+#define CV_WINDOW_AUTOSIZE cv::WINDOW_AUTOSIZE
+#include <opencv2/opencv.hpp>  
+#include <opencv2/core/core.hpp>  
+#include <opencv2/core/types_c.h>
+#include <opencv2/highgui/highgui.hpp>  
+#include <opencv2/imgproc/imgproc.hpp>  
+#include <opencv2/objdetect/objdetect.hpp>  
+#include <opencv2/imgproc/types_c.h>  
+/*定义结束*/
 
 namespace easypr {
 

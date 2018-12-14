@@ -10,7 +10,7 @@ if (CMAKE_SYSTEM_NAME MATCHES "Darwin")
 endif ()
 
 # OpenVC3 required
-find_package(OpenCV 3.2.0 REQUIRED)
+find_package(OpenCV  REQUIRED)
 
 # where to find header files
 include_directories(.)
@@ -51,6 +51,8 @@ if (CMAKE_SYSTEM_NAME MATCHES "Darwin")
     set(EXECUTABLE_NAME "demo")
 elseif (CMAKE_SYSTEM_NAME MATCHES "Linux")
     set(EXECUTABLE_NAME "demo")
+else() 
+	set(EXECUTABLE_NAME "demo")
 endif ()
 
 # set to be releas mode

@@ -1,5 +1,6 @@
 #include "easypr/core/feature.h"
 #include "easypr/core/core_func.h"
+#include "easypr/config.h"
 #include "thirdparty/LBP/lbp.hpp"
 
 namespace easypr {

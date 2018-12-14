@@ -20,7 +20,13 @@
 #ifndef __HELPER_HPP__
 #define __HELPER_HPP__
 
-#include "opencv2/core/core.hpp"
+#include <opencv2/opencv.hpp>  
+#include <opencv2/core/core.hpp>  
+#include <opencv2/core/types_c.h>
+#include <opencv2/highgui/highgui.hpp>  
+#include <opencv2/imgproc/imgproc.hpp>  
+#include <opencv2/objdetect/objdetect.hpp>  
+#include <opencv2/imgproc/types_c.h>  
 
 #include <vector>
 #include <set>
