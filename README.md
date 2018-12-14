@@ -1,3 +1,14 @@
+# mingw32编译说明:    
+1.设置CMAKE，运行CMAKE配置好OpenCV_DIR      
+![cmake](compile_image/cmake.png)    
+2.使用mingw32-make编译  
+![make_1](compile_image/make_1.png)  
+![make_2](compile_image/make_2.png) 
+3.演示
+![demo](compile_image/demo.png)    
+  
+
+
 # EasyPR
 
 EasyPR是一个开源的中文车牌识别系统，其目标是成为一个简单、高效、准确的非限制场景(unconstrained situation)下的车牌识别库。
