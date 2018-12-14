@@ -3,7 +3,7 @@
 ![cmake](compile_image/cmake.png)    
 2.使用mingw32-make编译  
 ![make_1](compile_image/make_1.png)  
-![make_2](compile_image/make_2.png) 
+![make_2](compile_image/make_2.png)   
 3.演示
 ![demo](compile_image/demo.png)    
   
